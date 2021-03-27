@@ -1,0 +1,89 @@
+{
+  "name": "MindYourStep",
+  "platform": "android",
+  "buildPath": "./build",
+  "debug": false,
+  "md5Cache": false,
+  "sourceMaps": false,
+  "replaceSplashScreen": false,
+  "mainBundleCompressionType": "merge_dep",
+  "mainBundleIsRemote": false,
+  "mergeStartScene": false,
+  "experimentalEraseModules": false,
+  "compressTexture": true,
+  "packAutoAtlas": true,
+  "startScene": "dc1a081c-e4e1-4e7a-a90d-f9873e2d06d3",
+  "scenes": [
+    {
+      "url": "db://assets/Scenes/Main.scene",
+      "uuid": "dc1a081c-e4e1-4e7a-a90d-f9873e2d06d3"
+    }
+  ],
+  "outputName": "mind_your_step",
+  "packages": {
+    "native": {
+      "template": "link",
+      "polyfills": {
+        "asyncFunctions": true
+      },
+      "encrypted": false,
+      "xxteaKey": "7bTBYiKkFB6IlOZr",
+      "compressZip": false,
+      "makeAfterBuild": false
+    },
+    "android": {
+      "packageName": "com.cocos.android",
+      "orientation": {
+        "portrait": false,
+        "upsideDown": false,
+        "landscapeRight": true,
+        "landscapeLeft": true
+      },
+      "apiLevel": "android-29",
+      "appABIs": [
+        "arm64-v8a",
+        "x86",
+        "armeabi-v7a"
+      ],
+      "useDebugKeystore": true,
+      "keystorePath": "",
+      "keystorePassword": "",
+      "keystoreAlias": "",
+      "keystoreAliasPassword": "",
+      "appBundle": false,
+      "androidInstant": false,
+      "remoteUrl": "",
+      "sdkPath": "D:\\m\\android-sdk",
+      "ndkPath": "D:\\m\\android-sdk\\android-ndk-r21e",
+      "renderBackEnd": {
+        "vulkan": true,
+        "gles3": true,
+        "gles2": true
+      }
+    },
+    "cocos-service": {
+      "configID": "fd24dd",
+      "services": []
+    }
+  },
+  "renderPipeline": "fd8ec536-a354-4a17-9c74-4f3883c378c8",
+  "physicsConfig": {
+    "gravity": {
+      "x": 0,
+      "y": -10,
+      "z": 0
+    },
+    "allowSleep": true,
+    "sleepThreshold": 0.1,
+    "autoSimulation": true,
+    "fixedTimeStep": 0.0166667,
+    "maxSubSteps": 1,
+    "defaultMaterial": {
+      "friction": 0.5,
+      "rollingFriction": 0.1,
+      "spinningFriction": 0.1,
+      "restitution": 0.1
+    }
+  },
+  "__version__": "1.2.6"
+}
